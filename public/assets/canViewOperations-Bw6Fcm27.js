@@ -1,1 +1,0 @@
-import{G as i}from"./group-Dg_peWef.js";import{C as r}from"./canDo-4np4Cz50.js";const t=(e,n=void 0)=>{let o;return e===void 0?!1:(n===void 0?o=r(e,i.GROUP_TYPE_CONVENTION):o=r(e,i.GROUP_TYPE_CONVENTION,n.ConventionUUID,n),o.ConfigureLostAndFound||o.ConfigureProps||o.EditLostAndFound||o.EditProps||o.ViewLostAndFound||o.ViewProps)};export{t as C};
