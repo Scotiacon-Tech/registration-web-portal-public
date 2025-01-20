@@ -1,1 +1,0 @@
-import{G as r}from"./group-Dg_peWef.js";import{C as t}from"./canDo-DmjiwSfW.js";const d=(n=void 0,i=void 0)=>n===void 0?!1:i===void 0?t(n,r.GROUP_TYPE_ORGANISATION).EditOrganisation:t(n,r.GROUP_TYPE_ORGANISATION,i.OrganisationUUID).EditOrganisation;export{d as C};
