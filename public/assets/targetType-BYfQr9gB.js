@@ -1,0 +1,1 @@
+var N=(T=>(T.TARGET_TYPE_SYSTEM="SYSTEM",T.TARGET_TYPE_ORGANISATION="ORGANISATION",T.TARGET_TYPE_CONVENTION="CONVENTION",T))(N||{});const t=[{title:"Convention",value:"CONVENTION"},{title:"Organisation",value:"ORGANISATION"},{title:"System",value:"SYSTEM"}];export{N as T,t as a};
