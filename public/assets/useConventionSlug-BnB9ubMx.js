@@ -1,1 +1,0 @@
-import{U as c,P as r}from"./index-BgDgEGJg.js";const a=new Map;async function v(){var o;const u=r(),e=((o=c().params.convention)==null?void 0:o.toString())||"";if(!e)return;const n=a.get(e);if(!n||!n.value||n.timestamp<Date.now()-1e3*60*5)try{const t=await u.getConvention(e);return a.set(e,{timestamp:Date.now(),value:t}),t}catch{return}return n.value}export{v as u};
