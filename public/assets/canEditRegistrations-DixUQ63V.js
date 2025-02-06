@@ -1,0 +1,1 @@
+import{C as r,G as e}from"./canDo-BDE6OgwY.js";const a=(t,i)=>t===void 0?!1:i===void 0?r(t,e.GROUP_TYPE_CONVENTION).EditRegistration:r(t,e.GROUP_TYPE_CONVENTION,i.ConventionUUID,i).EditRegistration;export{a as C};
