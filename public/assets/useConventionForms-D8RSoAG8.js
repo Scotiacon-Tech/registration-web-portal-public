@@ -1,0 +1,1 @@
+import{O as r}from"./index-JkkDeYGs.js";const s=1e3*30,a=new Map;async function u(e){const o=r();try{const t=a.get(e);if(!t||t.timestamp<Date.now()-s)try{const n=await o.getConventionForms(e);return a.set(e,{timestamp:Date.now(),value:n}),n}catch{return}return t.value}catch{return}}export{u};
