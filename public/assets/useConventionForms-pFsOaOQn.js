@@ -1,0 +1,1 @@
+import{O as r}from"./index-DcopCLfk.js";const s=1e3*30,a=new Map;async function i(e){const n=r();try{const t=a.get(e);if(!t||t.timestamp<Date.now()-s)try{const o=await n.getConventionForms(e);return a.set(e,{timestamp:Date.now(),value:o}),o}catch{return}return t.value}catch{return}}export{i as u};
