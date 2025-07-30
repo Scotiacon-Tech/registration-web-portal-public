@@ -1,0 +1,1 @@
+import{C as s,G as e}from"./canDo-D2vaIXw0.js";const d=(i,r=void 0)=>{let o;return i===void 0?!1:(r===void 0?o=s(i,e.GROUP_TYPE_CONVENTION):o=s(i,e.GROUP_TYPE_CONVENTION,r.ConventionUUID,r),o.ConfigureLostAndFound||o.ConfigureProps||o.EditLostAndFound||o.EditProps||o.ViewLostAndFound||o.ViewProps)};export{d as C};
