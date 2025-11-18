@@ -1,0 +1,1 @@
+import{C as r,G as a}from"./canDo-CteQ570y.js";const s=(t,i)=>t===void 0?!1:i===void 0?r(t,a.GROUP_TYPE_CONVENTION).EditRegistration:r(t,a.GROUP_TYPE_CONVENTION,i.ConventionUUID,i).EditRegistration;export{s as C};
